@@ -10,19 +10,34 @@ Submit your build by adding a **team folder** under `submissions/` and opening a
 ## How to submit (participants)
 
 1. **Submit the form:** [forms.gle/UiJB7fVNCpwvnVLa7](https://forms.gle/UiJB7fVNCpwvnVLa7) (required - PR alone is not enough).
-2. **Fork** this repo: [Bentodotfun/build-on-bento](https://github.com/Bentodotfun/build-on-bento)
-3. Copy the template folder:
+2. **Fork** this repo on GitHub: [Bentodotfun/build-on-bento](https://github.com/Bentodotfun/build-on-bento)
+3. **Clone your fork** and create your team folder (do this before filling the project / opening a PR):
 
 ```bash
+git clone https://github.com/<your-github-username>/build-on-bento.git
+cd build-on-bento
+
+# create your submission directory from the template
 cp -R submissions/_TEMPLATE submissions/YourTeamName
 ```
 
-Use a short folder name (letters, numbers, hyphens). Example: `submissions/Alpha`, `submissions/market-bot`.
+Folder name rules: short, no spaces (letters, numbers, hyphens).  
+Examples: `submissions/Alpha`, `submissions/market-bot`
 
-4. Fill in `submissions/YourTeamName/README.md` (project, links, Bento integration, how to run).
-5. Optional: put demo screenshots in `submissions/YourTeamName/assets/`, or add your project code in that folder.
-6. Open a **Pull Request** into `Bentodotfun/build-on-bento` → `main`.
-7. PR title: `[TeamName] ProjectName` (example: `[Alpha] MarketBot`).
+**GitHub website only (no terminal):** in your fork → `submissions/` → Add file → Create new file → set path to `submissions/YourTeamName/README.md`, then paste the contents from `submissions/_TEMPLATE/README.md`.
+
+4. **Fill** `submissions/YourTeamName/README.md` (project, links, Bento integration, how to run).
+5. Optional: add screenshots under `submissions/YourTeamName/assets/`, or put your project code in that folder.
+6. Commit and push to your fork:
+
+```bash
+git add submissions/YourTeamName
+git commit -m "Add submission for YourTeamName"
+git push origin main
+```
+
+7. Open a **Pull Request** from your fork → `Bentodotfun/build-on-bento` `main`.  
+   PR title: `[TeamName] ProjectName` (example: `[Alpha] MarketBot`).
 
 **Do not edit the root README** or other teams' folders. Only add/change files under `submissions/YourTeamName/`.
 
@@ -32,7 +47,8 @@ Use a short folder name (letters, numbers, hyphens). Example: `submissions/Alpha
 submissions/
   _TEMPLATE/          <- copy this (do not edit in place)
     README.md
-  YourTeamName/       <- your submission
+    assets/
+  YourTeamName/       <- create this folder first, then fill it
     README.md
     assets/           <- optional screenshots
     (your code)       <- optional
