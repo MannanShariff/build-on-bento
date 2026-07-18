@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="results/dashboard.png" alt="Predicto Dashboard" width="100%"/>
+<img src="submissions/predicto/results/dashboard.png" alt="Predicto Dashboard" width="100%"/>
 
 # 🔮 Predicto — AI Prediction Intelligence Engine for Bento
 
@@ -100,14 +100,14 @@ Each market card exposes a **"Analyze"** button that triggers a full AI analysis
 </td>
 <td width="50%">
 
-<img src="results/predicto_response.png" alt="PredictGPT Intelligence Report" width="100%"/>
+<img src="submissions/predicto/results/predicto_response.png" alt="PredictGPT Intelligence Report" width="100%"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<img src="results/detailed response.png" alt="Detailed Intelligence Report" width="100%"/>
+<img src="submissions/predicto/results/detailed_response.png" alt="Detailed Intelligence Report" width="100%"/>
 
 </td>
 <td width="50%">
@@ -131,14 +131,14 @@ Create invite-only **prediction leagues** with friends, colleagues, or classmate
 </td>
 <td width="50%">
 
-<img src="results/private_room.png" alt="Private Prediction Rooms" width="100%"/>
+<img src="submissions/predicto/results/private_room.png" alt="Private Prediction Rooms" width="100%"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-<img src="results/create market.png" alt="Create Market Modal" width="100%"/>
+<img src="submissions/predicto/results/create_market.png" alt="Create Market Modal" width="100%"/>
 
 </td>
 <td width="50%">
