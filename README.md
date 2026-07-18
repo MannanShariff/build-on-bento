@@ -54,7 +54,8 @@ Every **serious bettor** on Bento will eventually want AI insights before commit
 │                        PREDICTO ENGINE                       │
 └─────────────────────────────────────────────────────────────┘
 
-   Bento SDK                    AnaKing + APIs
+   Bento SDK                    AnaKin
+    + APIs
        ↓                              ↓
   Market Data              Live Web Context (news,
   (YES/NO odds,             Reddit, GitHub, commits,
@@ -254,7 +255,7 @@ npm start
 3. Generate a new Builder API key
 4. Copy and paste it as `NEXT_PUBLIC_BENTO_BUILDER_API_KEY`
 
-### Anakin (AnaKing) Scraper API Key
+### Anakin (AnaKin) Scraper API Key
 1. Visit [https://anakin.ai](https://anakin.ai) and create an account
 2. Go to Dashboard → API Keys
 3. Generate a new API key
