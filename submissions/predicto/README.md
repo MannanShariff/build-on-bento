@@ -106,7 +106,7 @@ Each market card exposes a **"Analyze"** button that triggers a full AI analysis
 <tr>
 <td width="50%">
 
-<img src="results/detailed response.png" alt="Detailed Intelligence Report" width="100%"/>
+<img src="results/detailed%20response.png" alt="Detailed Intelligence Report" width="100%"/>
 
 </td>
 <td width="50%">
@@ -137,7 +137,7 @@ Create invite-only **prediction leagues** with friends, colleagues, or classmate
 <tr>
 <td width="50%">
 
-<img src="results/create market.png" alt="Create Market Modal" width="100%"/>
+<img src="results/create%20market.png" alt="Create Market Modal" width="100%"/>
 
 </td>
 <td width="50%">
