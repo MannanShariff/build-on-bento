@@ -358,18 +358,6 @@ git checkout -b feature/your-feature-name
 git commit -m "feat: add your feature"
 git push origin feature/your-feature-name
 ```
-
----
-
-## 📬 Contact
-
-| | |
-|---|---|
-| **Team** | Predicto |
-| **Builder** | Mannan Shariff |
-| **Email** | mannan@predicto.fun |
-| **Bento API Key** | `bnt_live_4cc4bb85_adbebf85e37e0ff79fdde553` |
-
 ---
 
 ## 📄 License
